@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oya · Le goût de la maison, même loin de la maison</title>
+<meta name="description" content="Oya : les plats du pays pas à pas, ton menu de la semaine et tes courses triées par rayon.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@800&family=Inter:wght@400;600&display=swap">
+<style>
+  :root { --fond: #FAFAFA; --carte: #FFFFFF; --encre: #1F2937; --douce: #4B5563; --trait: #E5E7EB; --primaire: #EAB308; }
+  @media (prefers-color-scheme: dark) { :root { --fond: #111827; --carte: #1F2937; --encre: #F9FAFB; --douce: #D1D5DB; --trait: #374151; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fond); color: var(--encre); font: 400 17px/1.6 Inter, system-ui, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 20px 64px; }
+  .marque { display: flex; align-items: center; gap: 14px; }
+  .marque strong { font: 800 34px/1 'Bricolage Grotesque', system-ui, sans-serif; }
+  h1 { font: 800 clamp(30px, 7vw, 42px)/1.08 'Bricolage Grotesque', system-ui, sans-serif; margin: 28px 0 12px; }
+  p { color: var(--douce); }
+  ul { list-style: none; padding: 0; margin: 28px 0; display: grid; gap: 10px; }
+  li a { display: flex; justify-content: space-between; align-items: center; background: var(--carte); border: 1px solid var(--trait); border-radius: 16px; padding: 16px 18px; color: var(--encre); text-decoration: none; font-weight: 600; min-height: 44px; }
+  li a:hover { border-color: var(--encre); }
+  footer { margin-top: 40px; font-size: 14px; color: var(--douce); }
+</style>
+</head>
+<body>
+<main>
+  <div class="marque">
+    <svg width="52" height="52" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#1F2937"/><path d="M12 37H52A20 20 0 0 1 12 37Z" fill="#fff"/><path d="M20 33A12 12 0 0 1 44 33Z" fill="#EAB308"/></svg>
+    <strong>Oya</strong>
+  </div>
+  <h1>Le goût de la maison, même loin de la maison.</h1>
+  <p>Oya t'aide à cuisiner les plats du pays sans y passer la soirée : ton menu de la semaine, ta liste de courses triée par rayon, et chaque étape expliquée.</p>
+  <ul>
+    <li><a href="confidentialite/">Politique de confidentialité <span aria-hidden="true">›</span></a></li>
+  </ul>
+  <p>Une question sur l'application ? Écris-nous : <span>[adresse e-mail de contact à compléter]</span></p>
+  <footer>Oya · disponible sur iPhone et Android.</footer>
+</main>
+</body>
+</html>
